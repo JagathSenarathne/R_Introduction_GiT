@@ -28,6 +28,7 @@ Prime.func<-function(x)
   out=ifelse(y>0,"not a prime", "prime")
   print(out)
   a=count(out)
+  barplot(a)
 }
 
 
