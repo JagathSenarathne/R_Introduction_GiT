@@ -30,6 +30,9 @@ Prime.func<-function(x)
   count=table(out)
   plot(count)
   
+  tt2=table(out)
+  barplot(tt2)
+  
 }
 
 
