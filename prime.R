@@ -27,6 +27,8 @@ Prime.func<-function(x)
  
   out=ifelse(y>0,"not a prime", "prime")
   print(out)
+  count=table(out)
+  plot(count)
   
 }
 
