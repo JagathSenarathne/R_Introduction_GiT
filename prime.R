@@ -27,12 +27,17 @@ Prime.func<-function(x)
  
   out=ifelse(y>0,"not a prime", "prime")
   print(out)
+<<<<<<< HEAD
   count=table(out)
   plot(count)
   
   tt2=table(out)
   barplot(tt2)
   
+=======
+  a=count(out)
+  barplot(a)
+>>>>>>> testing
 }
 
 
