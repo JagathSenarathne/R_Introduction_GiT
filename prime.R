@@ -29,6 +29,7 @@ Prime.func<-function(x)
   print(out)
   
   tt2=table(out)
+  barplot(tt2)
   
 }
 
